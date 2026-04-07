@@ -1,5 +1,5 @@
-name: Basic Workflow
-.
+name: Secret Test
+
 on: push
 
 jobs:
