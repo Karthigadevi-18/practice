@@ -14,3 +14,5 @@ jobs:
 
       - name: Print message
         run: echo "Hello GitHub Actions!"
+      - name: Show Secret
+        run: echo "Secret is ${{ secrets.MY_SECRET }}"
